@@ -61,7 +61,7 @@ class SMS {
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		$smsresult = curl_exec($ch);
 
-		return $smsresult
+		return $smsresult;
 	}
 
 
